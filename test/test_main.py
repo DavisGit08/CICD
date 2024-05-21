@@ -14,3 +14,6 @@ def test4():
 
 def test5():
     print("hola, test5")
+
+def test6():
+    print("hola, test6")
