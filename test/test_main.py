@@ -20,3 +20,6 @@ def test6():
 
 def test7():
     print("hola, test7")
+    
+def test8():
+    print("hola, test8")
