@@ -1,9 +1,6 @@
 name: tests package
 
 on:
-  push:
-    branches:
-      - main
   pull_request:
     branches:
       - main
@@ -19,7 +16,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: '3.12'
+        python-version: '33.10.6'
 
     - name: Install Poetry
       run: pip install poetry
