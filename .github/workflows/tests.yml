@@ -10,7 +10,7 @@ on:
 
 jobs:
   test:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     steps:
     - name: Check out repository
@@ -21,17 +21,11 @@ jobs:
       with:
         python-version: '3.12'
 
-    - name: Install curl
-      run: |
-        choco install curl
-
     - name: Install Poetry
-      run: |
-        pip install poetry
+      run: pip install poetry
 
     - name: Install dependencies
       run: poetry install
 
     - name: Run tests
-      run: |
-        poetry run pytest -vv
+      run: poetry run pytest -vv
