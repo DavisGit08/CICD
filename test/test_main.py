@@ -8,3 +8,6 @@ def test2():
 
 def test3():
     print("hola, test3")
+
+def test4():
+    print("hola, test4")
