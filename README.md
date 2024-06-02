@@ -1,2 +1,2 @@
-# test
-this is a test
+# CI / CD test
+It runs tests once a push is done.

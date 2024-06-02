@@ -1,25 +1,16 @@
 import pytest
 
 def test1():
-    print("hola, test1")
+    print("Hey, this is a test, test1")
 
 def test2():
-    print("hola, test2")
+    print("Hey, this is a test, test2")
 
 def test3():
-    print("hola, test3")
+    print("Hey, this is a test, test3")
 
 def test4():
-    print("hola, test4")
+    print("Hey, this is a test, test4")
 
 def test5():
-    print("hola, test5")
-
-def test6():
-    print("hola, test6")
-
-def test7():
-    print("hola, test7")
-    
-def test8():
-    print("hola, test8")
+    print("Hey, this is a test, test5")
